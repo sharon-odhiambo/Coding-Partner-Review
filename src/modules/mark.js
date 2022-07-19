@@ -1,4 +1,5 @@
 /* eslint-disable import/extensions */
+/* eslint-disable no-unused-vars  */
 import { Store } from './store.js';
 
 const updateCompleted = (index) => {
@@ -14,9 +15,11 @@ const clearCompleted = () => {
       tasks.splice(index);
     } else {
       const tasks = Store.getTasks();
+    }
   });
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
 export { updateCompleted, clearCompleted };
 
 /* eslint-enable import/extensions */
+/* eslint-enable no-unused-vars  */

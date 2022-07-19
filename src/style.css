@@ -73,10 +73,8 @@ hr {
 }
 
 .task-entry {
-  display: flex;
-  margin-right: 70%;
   border: none;
-  min-width: 150px;
+  min-width: 40%;
 }
 
 .task-entry[data-completed='true'] {
