@@ -25,6 +25,8 @@ body {
 
 .item {
   border: none;
+  outline: none;
+  min-width: 200px;
 }
 
 .list-item {
@@ -74,6 +76,7 @@ hr {
   display: flex;
   margin-right: 70%;
   border: none;
+  min-width: 150px;
 }
 
 .task-entry[data-completed='true'] {
