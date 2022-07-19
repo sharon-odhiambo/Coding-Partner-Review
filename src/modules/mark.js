@@ -11,8 +11,9 @@ const clearCompleted = () => {
   const tasks = Store.getTasks();
   tasks.forEach((task, index) => {
     if (task.completed === true) {
-      tasks.splice(index, 1);
-    }
+      tasks.splice(index);
+    } else {
+      const tasks = Store.getTasks();
   });
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
