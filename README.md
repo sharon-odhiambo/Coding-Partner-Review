@@ -1,5 +1,5 @@
 # To-Do List
--This is an Awesome Booklist project that we did with my coding partner. The project allows the user to add or remove a book from the list.
+-In this repository my coding partner and I implemented code review best practices. I reviewed my code based on best JavaScript practices, received a review from my partner and implemented the changes. The review was on my To-do list project.
 
 ## Built With
 
